@@ -147,9 +147,13 @@ Aquí teniu el codi de la versió bàsica del joc Pong.
 Per crear un marcador que funcioni seguiu els passos següents:
 
 1. Creeu una variable global anomenada **puntuació** per guardar la puntuació del joc.
-![](img/pong_9_4.png)
-2. Feu que cada vegada que el jugador "culli" la pilota amb la plataforma (evitant així la seva col.lisió amb el terra) el marcador augmenti una unitat. Per fer-ho, haureu d'afegir aquest bloc en el bloc que es programa la col.lisió de la pilota i la plataforma
-![](img/pong_10_4.png)
+
+    ![](img/pong_9_4.png)
+
+2. Feu que cada vegada que el jugador "culli" la pilota amb la plataforma (evitant així la seva col.lisió amb el terra) el marcador augmenti una unitat. Per fer-ho, haureu d'afegir aquest bloc en el bloc que es programa la col.lisió de la pilota i la plataforma.
+
+    ![](img/pong_10_4.png)
+
 3. Cada vegada que canvia el marcador, el nou valor s'ha de mostrar per pantalla. Per fer-ho, crearem un procediment anomenat **canviaIMostraPuntuacio**. Aquest procediment el cridarem quan cliquem el botó començar i cada vegada que la pilota col.lisioni la plataforma.
 4. Arrossegueu el bloc següent:
 ```
@@ -172,9 +176,21 @@ El que farem ara és que quan la pilota toqui a terra (Borde=-1) el joc es pari.
 ![](img/pong_13_4.png)
 
 ###3. Afegim efectes de so
+
+La plantilla que us heu baixat conté fitxers de so que podeu utilitzar:
+
+| Acció                                 | So          |
+| :------------------------------------ | :---------- |
+| La pilota toca el terra (game over)   | Buzzer.mp3  |
+| La pilota toca una vora               | note.wav    |
+| La pilota toca la plataforma          | Noink.mp3   |
+
+Per utilitzar aquests sons us caldrà afegir un component "Medios/Sonido" des del panell de disseny. Llavors haureu d'anar a blocs i programar aquests sons.
+
 ###4. Més reptes
 Aquí us deixem algunes idees perquè pugueu fer el vostre joc més divertit:
 
 1. Proveu de fer un disseny més personalitzat dels objectes del joc. Per exemple, que la plataforma canvii de color aleatòriament o que la pilota tingui un color o un altre depenent de les vides que li queden. Canvieu color del llenç de la manera que us agradi més.
-2. Modifiqueu la velocitat de la pilota amb la puntuació. Si el jugador falla molt, feu que vagi més lenta, si en canvi, el jugador va molt bé, incrementeu la velocitat de la pilota progressivament.
-3. Afegiu una segona pilota al joc.
+2. Afegiu un component "CasillaDeVerificación" per fer que l'usuari pugui activar o desactivar els sons del joc. Com els reprogramareu?
+3. Modifiqueu la velocitat de la pilota amb la puntuació. Si el jugador falla molt, feu que vagi més lenta, si en canvi, el jugador va molt bé, incrementeu la velocitat de la pilota progressivament.
+4. Afegiu una segona pilota al joc.

@@ -104,7 +104,7 @@ Traduït a blocs, ens cal implementar el següent:
 
 ![](img/whacamole_9_3.png)
 
-Fixeu-vos que cridem el prpocediment MouElTalp quan el toquem perquè així agafi una nova posició.
+Fixeu-vos que cridem el procediment MouElTalp quan el toquem perquè així agafi una nova posició.
 
 ##PAS7: Programa final
 
