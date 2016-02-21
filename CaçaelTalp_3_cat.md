@@ -10,9 +10,8 @@ Aquest tutorial us ensenyarà a construir un joc similar al famós joc arcade [W
 ##Què aprendreu?
 
 1. Creació d'una llista de components
-2.
-3. Control d'un joc amb el component "Reloj"
-4. Utilització de les capes a l'hora de fer que un personatge surti a davant d'un altre per pantalla
+2. Control d'un joc amb el component "Reloj"
+3. Utilització de les capes a l'hora de fer que un personatge surti a davant d'un altre per pantalla
 
 
 

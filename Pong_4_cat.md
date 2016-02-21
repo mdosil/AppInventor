@@ -1,11 +1,10 @@
 #Pong
 
 
-Aquest tutorial us ensenyarà a construir un joc similar al famós joc arcade [Pong](http://www.ponggame.org/) creat per Atari el 1972. Vosaltres construireu la versió bàsica, tindreu una pilota que rebotarà a les 4 parets del mòbil i també hi haurà una plataforma mòbil a la part inferior sobre la qual haurà de botar la pilota sense que toqui a terra. La versió bàsica no tindrà ni marcador i el joc no tindrà un final. Però un cop l'hàgiu acabat podreu afegir-hi vosaltres mateixos aquests elements:
+Aquest tutorial us ensenyarà a construir un joc similar al famós joc arcade [Pong](http://www.ponggame.org/) creat per Atari el 1972. Vosaltres construireu la versió bàsica, tindreu una pilota que rebotarà a les 4 parets del mòbil i també hi haurà una plataforma mòbil a la part inferior sobre la qual haurà de botar la pilota sense que toqui a terra. La versió bàsica no tindrà ni marcador i el joc no tindrà un final. Però un cop l'hàgiu acabat podreu afegir-hi vosaltres mateixos altres elements:
 
 * Marcador amb la puntuació
 * Acabar el joc quan la pilota toca el terra
-* Afegir 3 vides a la pilota
 * Afegir efectes de so
 
 
