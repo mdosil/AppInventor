@@ -25,7 +25,7 @@ Aquest tutorial us ensenyarà a construir un joc similar al famós joc arcade [P
 ##PAS 1: Comencem
 
 1. Connecteu-vos a l'App Inventor.
-2. Descarregueu-vos el fitxer [PongBasic.aia](https://github.com/mdosil/AppInventor/blob/master/aia/PongBasic.aia)
+2. Descarregueu-vos el fitxer [PongBasic.aia](https://github.com/mdosil/AppInventor/raw/master/aia/PongBasic.aia)
 3. Aneu a "Mis Proyectos" i seleccioneu "Importar proyecto (.aia) des de mi ordenador". Pugeu aquest fitxer.
 4. Heu de veure un projecte anomenat **Pong Basic**. Canvieu-li el nom a **Pong_nomcognom**.
 
