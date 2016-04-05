@@ -42,7 +42,7 @@ L'ActivityStarter és un component *low-level* en el qual haureu de definir unes
 | :-------------------------------| :----------------------------------- |
 | Acción                          | android.intent.action.VIEW           |
 | Clase                           | com.google.android.maps.MapsActivity |
-| Paquete                         | com.google.andropid.apps.maps        |
+| Paquete                         | com.google.android.apps.maps         |
 
 Un cop a l'editor de blocs definireu també una altra propietat **UriDelDato**, que us permetrà llançar un mapa específic de Google Maps. Aquesta propietat s'ha de fixar dins l'editor de blocs enlloc del panell de disseny perquè és dinàmica i canviarà en funció de que l'usuari trii la Torre Eiffel, el museu del Louvre o la catedral de Notre Dame.
 
