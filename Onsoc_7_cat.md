@@ -11,7 +11,7 @@ Podeu trobar també una part d' aquesta pràctica en anglès [aquí](http://www.
 
 ##Què aprendreu?
 
-1. Utilització del component **LocationSensor** per a determinar les coordenades GPS d'on ens trobem.
+1. Utilització del component **SensorDeUbicación** per a determinar les coordenades GPS d'on ens trobem.
 2. Càlcul de distàncies terrestres a partir de les coordenades GPS de dues localitzacions determinades.
 
 
@@ -35,12 +35,12 @@ En [aquest enllaç](http://geokoder.com/distances) hi podreu trobar altres maner
 ##PAS 2: Com es pot mostrar amb App Inventor la teva latitud, longitud i adreça?
 
 
-A l'App Inventor hi ha un component que s'anomena **LocationSensor**. Aquest component ens dóna la localització gps (latitud i longitud) d'on estem sempre i quant tinguem el GPS del mòbil activat. Per exemple, la funció **LocationSensor.cambioEnUbicación** s'activarà quan:
+A l'App Inventor hi ha un component que s'anomena **SensorDeUbicación**. Aquest component ens dóna la localització gps (latitud i longitud) d'on estem sempre i quant tinguem el GPS del mòbil activat. Per exemple, la funció **SensorDeUbicación.cambioEnUbicación** s'activarà quan:
 
-1. Quan l'app prengui s'engegui per primera vegada i prengui una lectura del GPS
+1. Quan l'app s'engegui per primera vegada i prengui una lectura del GPS
 2. Quan canvii la localització del mòbil
 
-Per exemple, si esteu caminant, l'activarà moltes vegades. Podreu ajustar quan s'activa amb les propietats **LocationSensor.IntervaloDeDistancia** i  **LocationSensor.IntervaloDeLocalización** del panell de disseny. Per defecte, l'interval de temps amb el qual s'actualitza la posició està posat a 60.000 ms o 1 minut.
+Per exemple, si esteu caminant, l'activarà moltes vegades. Podreu ajustar quan s'activa amb les propietats **SensorDeUbicación.IntervaloDeDistancia** i  **SensorDeUbicación.IntervaloDeLocalización** del panell de disseny. Per defecte, l'interval de temps amb el qual s'actualitza la posició està posat a 60.000 ms o 1 minut.
 
 
 ##PAS 3: Com es pot saber amb App Inventor la distància a la qual ens trobem d'un punt determinat?
