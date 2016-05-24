@@ -56,15 +56,14 @@ Llegiu bé els aspectes següents perquè els tindrem en compte a l'hora d'avalu
     * Sites on es presenta la vostra app
     * Disseny gràfic de la vostra app
     * Blocs de codi programats
-    * Test in situ de l'app
+    * Simulació i test in situ de l'app
     * Possibles millores que s'hi puguin incormporar
     * Logo i merxandatge
-    * Simulació i test de la vostra app
 
 
 ##4. Temporalització. Entregues i terminis
 
 * **Sessió 1:** Disseny i esquematització de la vostra app
-* **Sessions 2-10:** Programació de la app
-* **Sessions 11-12:** Preparació del google sites i de la presentació oral
-* **Sessions 13-14:** Presentació oral de les apps als companys
+* **Sessions 2-7:** Programació de la app
+* **Sessions 8-9:** Preparació del google sites i de la presentació oral
+* **Sessions 10-11:** Presentació oral de les apps als companys
